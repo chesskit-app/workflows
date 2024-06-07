@@ -51,4 +51,4 @@ jobs:
         run: |
           brew update
           brew install peripheryapp/periphery/periphery
-          periphery scan --strict
+          periphery scan --strict --format actions
