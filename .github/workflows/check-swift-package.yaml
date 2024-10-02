@@ -44,4 +44,4 @@ jobs:
         run: |
           brew update
           brew install peripheryapp/periphery/periphery
-          periphery scan --strict --format github-actions
+          periphery scan --strict --format github-actions --relative-results
